@@ -1,0 +1,83 @@
+---
+title: "Ryan Wang"
+# image: "CCF-Profile-Pic.png"
+links:
+  - label: '`r fontawesome::fa("envelope", fill = "#EA7E5D")` Email'
+    url: "mailto:ewang35@jh.edu"
+  - label: '`r fontawesome::fa("graduation-cap", fill = "#EA7E5D")` CV'
+    url: "https://drive.google.com/file/d/1LWnmye6emHMs7lyTGnELOd5WNptGaZKH/view?usp=sharing"
+  - label: '`r fontawesome::fa("github-square", fill = "#EA7E5D")` GitHub'
+    url: "https://github.com/RyanWang1119"
+output:
+  postcards::trestles
+---
+ 
+```{r load_packages, message = FALSE, warning=FALSE, include=FALSE}
+library(fontawesome)
+postcards::create_postcard(template = "trestles")
+
+pal1 = "#63D4FD" # pale azure
+pal4 = "#AFE9FE" # non-photo blue, 20% lighter
+pal6 = "#40B8E0" # 20% darker
+pal2 = "#EA7E5D" # burnt sienna
+pal3 = "#EC8C6F" # coral
+pal5 = "#8C1721" # carmine
+pal7 = "#C8504D" # bittersweet shimmer, 20% lighter than carmine
+
+```
+
+## <span style="color:  #8C1721;"> Bio</span>
+<br>
+  Hello! I am a 1st year ScM Student at the Johns Hopkins Bloomberg School of Public Health. 
+
+---
+
+## <span style="color:  #8C1721;"> Education</span>
+
+|  |  |
+|:--------------------------------------------------|:----------------|
+| **<span style="color:  #8C1721;"> Johns Hopkins University, Baltimore</span>** | [2024 - ]{style="float:right"} |
+| ScM. in Biostatistics |
+|<br>|   |
+| **<span style="color:  #8C1721;"> Westlake Univeristy, Hangzhou</span>**| [Summer 2024]{style="float:right"} |
+| Visiting Student |
+|<br>|   |
+| **<span style="color:  #8C1721;"> University of California Santa Barbara, Santa Barbara</span>** | [2020 - 2024]{style="float:right"} |
+| B.S. in Statistics and Data Science, Minor in Math ||
+  
+---
+  
+## <span style="color:  #8C1721;"> Technical Skills</span>
+  
+|  |  |
+|:------------------------------------------------|:--------------------|
+| `r fontawesome::fa("bar-chart", fill = "#AFE9FE")` **Computation** |
+| R `r fontawesome::fa("r-project", fill = "gray")` |
+| Golang `r fontawesome::fa("golang", fill = "gray")` |
+| Python `r fontawesome::fa("python", fill = "gray")`|
+| SAS  `r fontawesome::fa("sass", fill = "gray")`|
+
+  
+---
+
+## <span style="color:  #8C1721;"> Presentations </span>
+<br>
+Sept 9, 2022 \| Hofmann's Lab Meeting University of California, Santa Barbara
+<br>
+<span style="color:  #EC8C6F;"> **Ocean pH value fluctuation pattern in the Inter-tidal area along the California Coastline**</span>
+<br>
+10-minute talk presenting ongoing project aimed to understand the seasonal and daily fluctuation pattern of ocean pH values.
+
+---
+
+## <span style="color:  #8C1721;"> Hobbies</span>
+<br>
+You can often find me lifting weight in the gym. Aiming for hitting 225 lbs on bench press right now.
+
+I am also a fan of rock music, and here is one of my favorite albums.
+
+![The Wall by Pink Floyd](the_wall.jpg){width="50%" height="50%"}
+
+--- 
+
+Last Updated: 2024-08-29
